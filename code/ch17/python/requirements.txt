@@ -1,0 +1,3 @@
+# Python 3.10+（推荐 3.11+）
+# python -m pip install -r requirements.txt
+langchain-core==1.6.1

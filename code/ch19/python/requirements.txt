@@ -1,0 +1,2 @@
+# 本章教学运行时只用标准库，不必再装 autogen / ag2。
+# 面试名词对齐 AG2 Classic（pip 包名 autogen，维护模式）。

@@ -1,0 +1,5 @@
+# Python 3.10+（推荐 3.11）
+# python -m pip install -r requirements.txt
+#
+# 前三个示例只依赖标准库。pymilvus 仅给 lite_optional.py。
+pymilvus>=2.5.0,<3.0.0

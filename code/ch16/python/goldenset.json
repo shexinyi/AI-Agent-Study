@@ -1,0 +1,42 @@
+{
+  "description": "先写问法、金标标题、必须/禁止出现的原文，再跑检索。禁止看着排行榜改 gold。",
+  "k": 3,
+  "cases": [
+    {
+      "id": "leave_days",
+      "query": "事假每年累计不超过几个工作日",
+      "gold_headings": ["现行事假"],
+      "forbidden_headings": ["废止稿"],
+      "must_contain": ["10 个工作日"],
+      "must_not_contain": ["5 天"],
+      "role": "intern"
+    },
+    {
+      "id": "leave_max",
+      "query": "事假最多几天",
+      "gold_headings": ["现行事假"],
+      "forbidden_headings": ["废止稿"],
+      "must_contain": ["10 个工作日"],
+      "must_not_contain": ["5 天"],
+      "role": "intern"
+    },
+    {
+      "id": "order88",
+      "query": "ORDER-88 能不能退",
+      "gold_headings": ["ORDER-88 未发货退款"],
+      "forbidden_headings": [],
+      "must_contain": ["未发货", "退款"],
+      "must_not_contain": ["88 折"],
+      "role": "user"
+    },
+    {
+      "id": "tz123",
+      "query": "TZ123 是哪张单",
+      "gold_headings": ["ORDER-99 已发货售后"],
+      "forbidden_headings": [],
+      "must_contain": ["ORDER-99", "TZ123"],
+      "must_not_contain": ["ORDER-88"],
+      "role": "user"
+    }
+  ]
+}

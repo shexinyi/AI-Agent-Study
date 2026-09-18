@@ -1,0 +1,7 @@
+# Python 3.10+（推荐 3.11）
+# python -m pip install -r requirements.txt
+#
+# Chroma 1.x 用于 PersistentClient。自定义哈希嵌入，不下载 MiniLM、不需要 API Key。
+# 装不上也不妨碍跑示例：store.py 会退回 JSON 文件库。
+chromadb>=1.0.0,<2.0.0
+# 已在 Windows + Python 3.14 验证可安装 1.5.9。若 ImportError: cygrpc 被策略拦截，示例会自动改用 JSON 文件库。

@@ -1,0 +1,2 @@
+# 本章教学运行时只用标准库，不必安装 crewai。
+# 面试名词对齐 CrewAI：Agent(role/goal/backstory)、Task、Crew、Process.sequential / hierarchical、kickoff。
