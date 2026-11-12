@@ -140,9 +140,11 @@ Java 官方近亲是 **LangGraph4j**（`org.bsc.langgraph4j`，本章撰稿时 1
 
 | 项目 | 版本 / 说明 |
 | --- | --- |
-| Python | 3.10+，`langgraph==1.2.11` |
+| Python | 本章钉 `langgraph==1.2.11`。2026-11-05 的 1.2.20 给同任务多次 `interrupt` 各自 id，并增加 strict resume；重入语义没变 |
 | Java | 17+，标准库 + 本章 `MiniGraph` |
 | API Key | 不需要 |
+
+**2026-11-12 核对：** 上游 `langgraph` 1.2.20（2026-11-05）给同一次任务里的多次 `interrupt()` 各自一个 id，并增加拒绝过期恢复的 strict resume。本章钉在 **1.2.11**，和仓库 `requirements.txt` 一致。重入语义没改：恢复时节点仍从头跑，所以先 `fetch` 再 `gate`，写工具不能放在 `interrupt` 后面。升级前先把本章示例跑绿。
 
 ```bash
 cd code/ch18/python

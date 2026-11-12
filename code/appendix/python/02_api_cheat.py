@@ -12,7 +12,7 @@ MAP = {
 
 if __name__ == "__main__":
     text = (repo_root() / "docs" / "附录B-常用模型与接口速查.md").read_text(encoding="utf-8")
-    print("接口速查（2026-09 教学快照）\n")
+    print("接口速查（2026-11-12 教学快照）\n")
     for old, new in MAP.items():
         print(f"  {old} → {new}")
     print("  Assistants 关停：2026-08-26")

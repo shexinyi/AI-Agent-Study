@@ -58,8 +58,9 @@
 
 ## 环境总览（后续章节会细化）
 
-- Python 3.10+（推荐 3.11）
+- Python：标准库示例按 3.10+ 写。**3.10 已于 2026-10 结束官方支持**，新环境用 3.11。2026-11-11 起 `langchain` 1.5 / `langchain-core` 1.8 也要求 3.11；第 17 章仍钉 `langchain-core==1.6.1`
 - Java 17+（推荐 17 或 21），Maven 3.9+
+- 接 OpenAI 真接口时看 [附录 B](./docs/附录B-常用模型与接口速查.md)（2026-11-12）：新项目用 Responses；`gpt-4o-mini` 将于 2027-01-14 关闭。章内默认模型名是教学字符串
 - 可选：OpenAI / Anthropic / 任意 OpenAI 兼容国产模型的 API Key
 - 第 10 章起可选：`chromadb`（装不上可用章内 JSON 文件库）
 - 第 11 章可选：`pymilvus`（Lite 失败时用章内 MiniMilvus 教具）

@@ -13,7 +13,7 @@ public final class ApiCheat {
         map.put("Thread", "Conversation");
         map.put("Run", "Response");
         map.put("Run Step", "Item");
-        System.out.println("接口速查（2026-09 教学快照）\n");
+        System.out.println("接口速查（2026-11-12 教学快照）\n");
         map.forEach((o, n) -> System.out.println("  " + o + " → " + n));
         System.out.println("  Assistants 关停：2026-08-26");
         System.out.println("  新项目：POST /v1/responses");

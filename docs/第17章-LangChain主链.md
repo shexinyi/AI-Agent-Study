@@ -147,12 +147,14 @@ flowchart TB
 
 | 项目 | 版本 / 说明 |
 | --- | --- |
-| Python | 3.10+，`python -m pip install -r requirements.txt` → `langchain-core==1.6.1` |
+| Python | 本章钉 `langchain-core==1.6.1`（`requirements.txt`）。2026-11-11 起 `langchain` 1.5 / `langchain-core` 1.8 要求 Python 3.11，本章不跟 |
 | Java | 17+，Maven，`langchain4j-core 1.18.0` |
 | API Key | 不需要 |
 | 控制台 | PowerShell 中文可能乱码，看 Y/N 与退出码；可 `chcp 65001` |
 
 安装时若看到 `chardet` / SLF4J 警告，可以忽略，不影响链。
+
+**2026-11-12 核对：** Python 3.10 已于 2026-10 结束官方支持。`langchain` 1.5.0 与 `langchain-core` 1.8.0（2026-11-11）起最低要 Python 3.11。本章故意钉在 `langchain-core==1.6.1`，主链仍是 Prompt → Model → Parser。要跟官方最新包，先升到 3.11 并重跑三条示例，不要只改一行版本号。
 
 ### 对照表
 

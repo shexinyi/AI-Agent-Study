@@ -12,6 +12,8 @@
 | --- | --- | --- |
 | OpenAI Responses / 迁移 | [Migrate to Responses](https://developers.openai.com/api/docs/guides/migrate-to-responses) | 第 5、7、21 章 |
 | 模型页 | [Models](https://developers.openai.com/api/docs/models) | 附录 B |
+| 弃用与关停 | [Deprecations](https://developers.openai.com/api/docs/deprecations) | 附录 B、第 5、21 章 |
+| Assistants 迁移 | [Assistants migration](https://developers.openai.com/api/docs/assistants/migration) | 第 21 章 |
 | 推理模型 | [Reasoning](https://developers.openai.com/api/docs/guides/reasoning) | 第 28 章 |
 | LangChain | [python.langchain.com](https://python.langchain.com/) | 第 17 章 |
 | LangGraph | [LangGraph 文档](https://docs.langchain.com/langgraph) | 第 18 章 |

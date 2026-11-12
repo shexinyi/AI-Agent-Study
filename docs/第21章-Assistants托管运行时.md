@@ -78,12 +78,12 @@ flowchart LR
 
 | 旧 | 新 |
 | --- | --- |
-| Assistant | Prompt（配置，更好版本化） |
+| Assistant | Prompt（配置；在控制台建版本，不再只用 API 新建） |
 | Thread | Conversation |
 | Run | Response |
 | Run Step | Item |
 
-没有自动把旧 Thread 搬进 Conversation 的官方推车。你没导出的历史，就是没有。
+2026-11-12 仍以这次关停为准：Assistants 没有复活。官方说明 Prompt 在控制台创建和回滚，应用代码拿 prompt id；编排、重试、工具循环仍在你的进程。没有自动把旧 Thread 搬进 Conversation 的官方推车。只换名字、不导出消息，日落后还是空库。
 
 排障：托管出了错，你要会读 Run 状态和 Step；自建出了错，你要会读自己的日志。面试两套都要会说。
 
